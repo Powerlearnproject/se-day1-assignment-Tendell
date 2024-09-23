@@ -119,17 +119,69 @@ The maintenance phase also considers long-term strategies, for instance, upgradi
 
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
 
+The main difference between Waterfall and Agile is:
+Waterfall is a more traditional approach to project management, involving a linear flow.
+Agile, on the other hand, embraces an iterative process. It involves rapid actions and great flexibility.
+Tech startup developing a mobile app - Agile
+Government software for public records - Waterfall
+E-commerce website redesign - Agile
+Construction of a new corporate office - Waterfall
+Marketing campaign for a new product - Agile
+
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
+
+Software Developer
+The developer is responsible for writing the code and developing the entire software product. Aside from coding, a software developer is responsible for sending updates to the project manager and working closely with other team members, including the designer and QA engineer. 
+QA Engineer 
+The QA or quality assurance engineer creates tests that identify issues with software before it is deployed. 
+
+QA engineers monitor every phase of the software development process, including development, testing, debugging and delivery. They ensure that quality is maintained at every stage of the development process and that the final product meets the requirements.
+Project Manager 
+In software development, the roles of the project manager may include helping the team to design, execute, monitor and finish their work so that the clients will receive higher-quality software products. 
+
 
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
 
+What is an IDE?
+An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently. It increases developer productivity by combining capabilities such as software editing, building, testing, and packaging in an easy-to-use application. Just as writers use text editors and accountants use spreadsheets, software developers use IDEs to make their job easier.
+The Importance of Version Control Systems
+Version control systems have become an integral part of software development workflows due to their ability to tackle several critical challenges faced by developers. By providing a centralized repository, these systems enable better code management, collaboration, and accountability. Let’s explore some key reasons why version control systems are of utmost importance:
+
+Code Consistency: With version control systems, developers can maintain a consistent codebase. Every change made to the code is stored in the system, ensuring that the entire team is working on the same version. This eliminates the hassle of dealing with multiple copies and allows for efficient collaboration.
+Collaboration: VCS significantly simplifies collaboration among developers. Multiple team members can work on the same project simultaneously, and any modifications are automatically synced with the central repository. This facilitates seamless teamwork and minimizes conflicts that arise from working on shared codebases.
+Error Recovery: VCS provides a safety net for developers by offering the ability to revert to previous versions of the code. If a mistake is made or a bug is introduced, developers can easily roll back to a known working state. This saves valuable time and ensures that the project remains on track.
+Record Keeping: Version control systems maintain a detailed history of changes made to the codebase. Each commit is documented, including the author, timestamp, and a description of the modifications. This audit trail is invaluable for understanding the evolution of the code and for identifying the root cause of issues.
+Examples of version control system include Git, svb
+
+
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
 
+Lack of Workflow Visibility
+A lot of development teams suffer because of a vague understanding of the engineering processes within their organization. Many don’t have clarity about the status of the projects, the activities and challenges of the individuals, and whatnot. 
+How to Combat Lack of Visibility in Development Teams? 
+Invest in tools that empower your teams to make data-driven decisions: 
+
+Project management tools
+Engineering analytics tools
+Observability & monitoring tools
+
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+
+Level 1: Unit Testing
+Unit testing is a fundamental software development strategy where individual code units (functions, methods, classes) are isolated and tested independently. This testing level focuses on verifying each unit’s internal logic and functionality to ensure they operate as expected.
+Level 2: Integration Testing
+Integration testing verifies how individual software components (modules) work together after being unit-tested. It focuses on ensuring individual software pieces. In this level of testing, two or more unit-tested modules are integrated to test technique-interacting components. Then, the results will show whether these modules perform as expected or not.
+Level 3: System Testing
+System testing is a comprehensive evaluation of a software system’s overall functionality and performance. It ensures that the entire system meets the development criteria. This level of testing is critical for detecting system-wide issues such as compatibility problems, performance bottlenecks, and security weaknesses.
+
+Level 4: Acceptance Testing
+Acceptance testing is the final stage of software testing, which ensures the software functions properly in the user’s working environment. It determines whether the software fits the business requirements and user acceptance criteria as expected or not. 
+
+Unlike earlier testing levels, acceptance testing assesses the system from the user’s perspective, not the technical functionality.
 
 
 #Part 2: Introduction to AI and Prompt Engineering
@@ -137,5 +189,18 @@ Explain the different types of testing (unit, integration, system, and acceptanc
 
 Define prompt engineering and discuss its importance in interacting with AI models.
 
+Prompt engineering is the process of creating instructions for AI models to generate specific outputs. It involves providing context, examples, and instructions to help the model understand the user’s intent and respond in a meaningful way
+Prompt engineering makes it easy for users to obtain relevant results in the first prompt. It helps mitigate bias that may be present from existing human bias in the large language models’ training data. Further, it enhances the user-AI interaction so the AI understands the user’s intention even with minimal input.
+
+
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+
+Researching a historical figure
+Less Effective: “Tell me about that guy who invented the light bulb.”
+
+More Effective: “Can you provide details on Thomas Edison’s invention of the light bulb?”
+
+Explanation: While the first prompt might yield an answer about Thomas Edison, it leaves room for ambiguity. There were other inventors around the world who contributed to the development of the light bulb. The refined prompt specifies not only the person (Edison) but also narrows down the topic to Edison’s involvement with the light bulb. This specificity guides ChatGPT towards the exact information you’re seeking.
+
+
